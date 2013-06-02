@@ -1,0 +1,15 @@
+@inherits ViewPage<TodosResponse>
+@{
+	ViewBag.Title = "List Todos";
+}
+
+<h1>Todos</h1>
+
+<table>
+	@foreach (var todo in Model.Results)
+	{
+		<tr>
+			<td><a href="/todos/@todo.TodoId">@todo.Title</a></td>
+		</tr>
+	}
+</table>
