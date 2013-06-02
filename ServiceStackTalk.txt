@@ -1,0 +1,20 @@
+
+* What is it?
+-A fast, unified and integrated replacement for WCF, WebAPI and MVC
+-Holistically constructed to reduce artificial complexity. Services are designed for maximum re-use
+-Develop with idiomatic code-first C#, features naturally bind to and empowers your existing models
+-POCO models can be used in all libraries as-is - offering un-precedent levels of re-use unseen in .NET
+-Easy-to-use. Never read another text-book to learn how to use another heavy .NET framework again!
+
+* What is included?
+-REST, SOAP, & MQ Services
+-POCO support throughout (uses Attributes)
+-Authentication & Security including OpenId
+-Redis Client w/ Caching & Session providers
+-Code-first ORM w/ AutoMapping
+-Configuration, Logging, Validation
+-MVC w/ Razor & Markdown support
+-Profiling
+-IOC w/ interfaces at the core of everything
+-Virtual File System
+-Swagger support
